@@ -1,0 +1,161 @@
+body {
+  
+  background-color: rgb(white);
+  font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-serif;
+     }
+     
+
+     #cabecalho h1 {
+     text-align: center;
+     color: #194264;
+     background: #ccc;
+     }
+
+     #ImagemGeral {
+      width:  200 px ;
+      align-items : center;
+        }
+
+
+
+#navbar {
+  display: flex;
+    width: 100%;
+   justify-content: space-between;
+}
+
+#a {
+  font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-seri;
+  color: blue;
+  text-decoration: unset;
+}
+
+#tituloDestaque {
+  text-align: center;
+  display: flex;
+  color: #194264;
+}
+
+
+#textorecepcao p{
+  text-align: justify;
+  display: flex;
+  color: #194264;
+  font-size: 20px;
+}
+
+#noticias{
+display:flex;
+justify-content: space-between;
+}
+
+.noticiaisemdestaque{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px; 
+}
+
+p{font-size: 20px;}
+
+
+
+  /*Quem Somos*/
+#dadosquemsomos{
+  display:flex;
+  max-width: 100%;
+}
+
+.debora{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.israel{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.lucas{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.rosineide{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+ }
+
+.sabrina{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+
+.avatar{
+  text-align: center;
+  margin-top: 4px;
+}
+
+.imagemperfil{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid grey
+}
+
+h4{
+  text-align: center;
+  font-size: 20px;
+  color: #194264;
+  }
+
+  .sobre{
+    font-size: 18px;
+    font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-seri;
+    color: #194264;
+    text-align: center;
+  }
+
+  .linkedin{
+    width: 10%;
+   }
+
+
+  /*Saiba Mais*/
+
+
+  h2{
+    text-align: center;
+    color: #194264;
+    font-size: 20px
+  }
+
+  #ref{
+    font-size: 20px;
+    font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-seri;
+    color: #194264;
+    text-align: justify;
+   }
+
+   /* Rodapé*/
+   #rodape{
+    text-align: center;
+    color: #194264;
+    background: #ccc;
+    font-size: 20px;
+  }
+
+ 
+
+   
