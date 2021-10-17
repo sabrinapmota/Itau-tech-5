@@ -8,10 +8,16 @@
 
 section{
 font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-color: rgb(12, 11, 12);
-line-height: 1.4;
+color: rgb(19, 18, 19);
+line-height: 1.6;
 }
 
+.principal{
+font-family: 'Times New Roman', Times, serif, sans-serif;
+line-height: 2.0;
+font-size:21px;
+color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
 
 html {
   box-sizing: border-box;
@@ -22,11 +28,159 @@ html {
 
 body {
   background: #ccc;
-  margin: 30px 50px;
+  margin: 30px 60px;
   line-height: 1.4;
   
 }
 
+body {
+  
+  background-color: rgb(white);
+  font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-serif;
+     }
+     
+
+     #cabecalho h1 {
+     text-align: center;
+     color: #194264;
+     background: #ccc;
+     }
+
+     #ImagemGeral {
+      width:  200 px ;
+      align-items : center;
+        }
+
+
+
+#navbar {
+  display: flex;
+    width: 100%;
+   justify-content: space-between;
+}
+
+#a {
+  font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-seri;
+  color: blue;
+  text-decoration: unset;
+}
+
+#tituloDestaque {
+  text-align: center;
+  display: flex;
+  color: #194264;
+}
+
+#textorecepcao p{
+  text-align: justify;
+  display: flex;
+  color: #194264;
+  font-size: 20px;
+}
+
+p{
+
+  text-align: justify;
+  
+}
+
+p{font-size: 16px;}
+
+
+  /*Quem Somos*/
+#dadosquemsomos{
+  display:flex;
+  max-width: 100%;
+}
+
+.debora{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.israel{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.lucas{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+.rosineide{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+ }
+
+.sabrina{
+  border: gray 1px solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: gray 2px 2px 3px;
+  }
+
+
+.avatar{
+  text-align: center;
+  margin-top: 4px;
+}
+
+.imagemperfil{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+border: 2px solid grey
+}
+
+h4{
+text-align: center;
+font-size: 20px;
+color: #194264;
+}
+
+h5{
+text-align: center;
+font-size: 16px;
+color: #194264;  
+}
+
+.sobre{
+font-size: 16px;
+font-family: 'Times New Roman', 'Times', Arial ', 'Arial, sans-seri;
+color: #194264;
+text-align: center;
+}
+
+.linkedin{
+width: 10%;
+}
+
+
+/*Saiba Mais*/
+
+
+h2{
+text-align: center;
+color: #194264;
+font-size: 20px
+}
+
+h3{
+  text-align: center;
+  color: #194264;
+  font-size: 18px
+
+
+}
 .btn {
   background: var(--dark);
   color: var(--light);
@@ -35,42 +189,6 @@ body {
   border: 0;
 }
 
-#img_redonda1 {
-  height: 140px;
-  height: 120px;
-  border-radius: 50%;
-  border: 2px solid white ;
-  
-}
-
-#img_redonda2 {
-  height: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 2px solid white ;
-  
-}
-#img_redonda3 {
-  height: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 2px solid white;
-  
-}
-#img_redonda4 {
-  height: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 2px solid white ;
-  
-}
-#img_redonda5 {
-  height: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 2px solid white;
-  
-}
 
 .wrapper {
   display: grid;
@@ -87,36 +205,36 @@ body {
 }
 
 .main-nav a {
-  background: var(--primary);
-  display: block;
-  text-decoration: none;
-  padding: 0.8rem;
-  text-align: center;
-  color: black;
-  font-size: 1.1rem;
-  box-shadow: var(--shadow);
+background: var(--primary);
+display: block;
+text-decoration: none;
+padding: 0.8rem;
+text-align: center;
+color: black;
+font-size: 1.1rem;
+box-shadow: var(--shadow);
 }
 
 .main-nav a:hover {
-  background: var(--dark);
-  color: var(--light);
+background: var(--dark);
+color: var(--light);
 }
 
 /* Top Container */
 .top-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas:
-    'showcase showcase top-box-a'
-    'showcase showcase top-box-b';
+display: grid;
+grid-gap: 20px;
+grid-template-areas:
+'showcase showcase top-box-a'
+'showcase showcase top-box-b';
 }
 
 .top-container2 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas:
-    'showcase showcase top-box-a'
-    'showcase showcase top-box-b';
+display: grid;
+grid-gap: 20px;
+grid-template-areas:
+'showcase showcase top-box-a'
+'showcase showcase top-box-b';
 }
 
 .top-container3 {
@@ -219,7 +337,6 @@ body {
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
 }
-
 
 
 /* Info */
